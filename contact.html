@@ -2,19 +2,36 @@
 <html>
 <body>
 <h1>Contactformulier</h1>
+
 <form name="contact" method="POST" data-netlify="true">
-    <p>
-     <label>Your name: <input type="text" name="name"/></label>
-    </p>
-    <p>
-     <label>Your e-mail: <input type="email" name="email" /></label>
-    </p>
-    <p>
-     <label>Message: <textarea name="message"></textarea> </label>   
-    </p>
-    <p>
+    <label>Naam:        <input type="text" name="name"/></label><br><br>
+    <label>E-mail       <input type="email" name="email" /></label><br><br>
+    <label>Telefoonnr.: <input type="text" name="tel"/></label><br><br>   
+    <label>Leeftijd:    <input type="text" name="age"/></label><br><br>
+    <label>Geb. datum   <input type="date" name="birth date"/></label><br><br>
+    <label>Geslacht:<br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Man</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Vrouw</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Anders</label><br><br>
+    <label>Favoriete keuken:<br>
+        <input type="checkbox" name="keuken1" value="Frans">
+        <label for="Keuken1">Franse keuken</label><br>
+        <input type="checkbox" name="keuken2" value="Italiaans">
+        <label for="Keuken2">Italiaanse keuken</label><br>
+        <input type="checkbox" name="keuken3" value="Spaans">
+        <label for="Keuken3">Spaanse keuken</label><br>
+        <input type="checkbox" name="keuken4" value="Arabisch">
+        <label for="Keuken4">Arabische keuken</label><br><br>
+    <label>Favoriete kleur short:</label>   <input type="color"/> <br><br>
+    <label>Biografie:  <textarea name="message"></textarea> </label> <br><br>  
+    <label>Upload je laatste recept: <input type="file" name="recept"/></label><br><br>
+    <label>Recepten website: <input type="url" name="homepage"/> </label><br><br>
+  
      <button type="submit">Send</button>
-    </p>
+     <button type="reset">Reset</button>
  </form>
  <br>
  <br>
