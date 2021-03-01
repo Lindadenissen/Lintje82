@@ -70,7 +70,7 @@ li {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 0px;
-  padding: 0px;
+  padding: 10px 10px;
 }
 .black-border {
   color: rgb(180, 75, 15);
@@ -83,5 +83,18 @@ li {
 }
 
 * {
-  background-color: rgb(138, 217, 231);
+  background-color: rgb(158, 222, 233);
+}
+
+@media screen and (min-width: 1024px) {
+  * {
+    background-color: rgb(40, 161, 197);
+  }
+  h2,
+  p,
+  h1,
+  li {
+    font-size: 18px;
+    line-height: 36px;
+  }
 }
