@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: darkblue;
+}
+
+.W3 a:first-child {
+  margin-left: 0px;
+}
+
+.Currentpage a {
+  background: rgb(107, 129, 231);
+  text-decoration: none;
+}
+
+li a:hover {
+  color: lightblue;
+}
+
+input:focus {
+  border: 4px solid #63afae;
+}

@@ -1,0 +1,18 @@
+.W3 :hover {
+  color: rgb(84, 156, 180);
+  font-weight: bold;
+}
+
+.Youtube:active {
+  color: red;
+  font-style: italic;
+}
+
+.css:visited {
+  color: yellow;
+}
+
+.textarea:focus {
+  color: green;
+  font-size: 20px;
+}
